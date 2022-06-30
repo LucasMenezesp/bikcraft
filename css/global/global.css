@@ -10,13 +10,11 @@ h3,
 h4,
 ul,
 p,
-blockquote,
-dd {
+blockquote {
   margin: 0px;
 }
 
 ul {
-  margin: 0px;
   padding: 0px;
   list-style: none;
 }
@@ -26,10 +24,11 @@ a {
   color: inherit;
 }
 
-img { 
+img {
   max-width: 100%;
   display: block;
 }
+
 img[src$=".jpg"] {
   border-radius: 4px;
 }
